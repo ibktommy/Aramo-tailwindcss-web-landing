@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aroma Furniture</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <nav id="main-nav" class="w-full h-20 mx-auto flex p-4 shadow-lg bg-colorWhite">
+    <div class="container mx-auto flex justify-between items-center px-3 bg-colorWhite">
+      <div class="logo">
+        <a href="#home">
+          <img src="./images/logo.svg" alt="logo">
+        </a>
+      </div>
+      <!-- NavLinks for Desktop View -->
+      <ul class="hidden space-x-6 font-medium md:flex">
+        <li><a href="#home" class="hover:text-pryColorDark">Home</a></li>
+        <li><a href="#products" class="hover:text-pryColorDark">Products</a></li>
+        <li><a href="#about" class="hover:text-pryColorDark">About Us</a></li>
+        <li><a href="#contact" class="hover:text-pryColorDark">Contact Us</a></li>
+        <li><a href="#signUp" class="hover:text-pryColorDark">Sign Up</a></li>
+      </ul>
+
+      <!-- Button -->
+      <button
+        class="hidden py-2 px-6 bg-pryColorDark text-white text-sm tracking-widest text-center rounded-md shadow-lg border-2 border-pryColorDark hover:bg-white hover:text-pryColorDark transition-all md:inline-block">
+        Login
+      </button>
+
+      <!-- Navbar Action Btn -->
+      <div class=" menu-icon md:hidden">
+        <img src="./images/toggle-open.svg" alt="toggle-open">
+      </div>
+    </div>
+  </nav>
+
+  <!-- SHOWCASE -->
+  <main id="home" class="bg-pryColorLight mb-20 min-h-[85vh] flex items-center">
+    <div class="container mx-auto px-3 h-full md:mt-8">
+      <div class="showcase h-5/6 flex md:h-full md:flex-col md:gap-8 lg:flex-row">
+        <header class="self-center flex flex-col gap-5 items-start md:items-center lg:items-start">
+          <p class="header-para text-xl text-pryColorDark">Get 50% off</p>
+          <h1 class="header-title text-3xl font-bold md:text-5xl md:font-medium md:text-center lg:text-left
+          ">We Care <br> About Your
+            Interior</h1>
+          <p class="header-text text-left text-sm max-w-xl">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat excepturi beatae ratione error natus
+            expedita exercitationem distinctio assumenda? Odit, necessitatibus?
+          </p>
+          <button
+            class="py-2 px-8 bg-pryColorDark text-colorWhite text-lg tracking-widest text-center rounded-md shadow-lg border-2 border-pryColorDark hover:bg-colorWhite hover:text-pryColorDark transition-all">
+            Shop Now
+          </button>
+        </header>
+
+        <div class="showcase-img hidden md:inline-flex md:basis-1/2">
+          <img src="./images/home.jpg" alt="home">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- BRANDS -->
+  <section id="brands" class="py-10 px-3">
+    <div class="container mx-auto flex flex-wrap gap-4 justify-evenly items-center md:justify-between md:gap-0">
+      <img src="./images/brand-logos/b1.svg" alt="b1">
+      <img src="./images/brand-logos/b2.svg" alt="b2">
+      <img src="./images/brand-logos/b3.svg" alt="b3">
+      <img src="./images/brand-logos/b4.svg" alt="b4">
+      <img src="./images/brand-logos/b5.svg" alt="b5">
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section id="products" class="my-4">
+    <div class="container mx-auto px-3">
+      <div id="products-text" class="py-10 max-w-sm mx-auto text-center md:max-w-lg lg:max-w-xl">
+        <h1 class="text-3xl font-bold mb-3">Our Products</h1>
+        <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti unde sit atque,
+          recusandae
+          voluptatem officia
+          doloremque quisquam harum eaque doloribus quod neque ipsum! Explicabo quasi eaque dicta? Non, necessitatibus
+          similique.</p>
+      </div>
+
+      <div id="products-card" class="flex flex-col flex-wrap gap-8 md:flex-row md:items-center justify-center">
+        <div class="card-item rounded-md shadow-md bg-colorWhite md:w-[28rem]">
+          <img src="./images/product1.jpg" alt="product1">
+          <div class="card-details py-6 px-4 flex justify-between">
+            <p class="text-xl">Nullam Bed</p>
+            <p class="text-pryColorDark tracking-widest">$250.99</p>
+          </div>
+        </div>
+        <div class="card-item rounded-md shadow-md bg-colorWhite md:w-[28rem]">
+          <img src="./images/product2.jpg" alt="product1">
+          <div class="card-details py-6 px-4 flex justify-between">
+            <p class="text-xl">Aenean Sofa</p>
+            <p class="text-pryColorDark tracking-widest">$250.99</p>
+          </div>
+        </div>
+        <div class="card-item rounded-md shadow-md bg-colorWhite md:w-[28rem]">
+          <img src="./images/product3.jpg" alt="product1">
+          <div class="card-details py-6 px-4 flex justify-between">
+            <p class="text-xl">Lorem Table</p>
+            <p class="text-pryColorDark tracking-widest">$250.99</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT US -->
+  <section id="about" class="my-16 overflow-x-hidden">
+    <div class="container mx-auto px-3 flex flex-col-reverse gap-10 lg:flex-row-reverse">
+      <div id="about-text" class="flex flex-col items-start space-y-4 lg:self-center">
+        <h1 class="about-title text-3xl font-bold">About Us</h1>
+        <p class="about-para max-w-xl text-justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, alias? Dolore laudantium mollitia voluptatem
+          officia illo consequuntur unde, officiis totam! Cum ad consequatur vitae illo!
+        </p>
+        <p class="about-para max-w-xl text-justify">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, obcaecati illum inventore sit esse velit.
+        </p>
+
+        <button
+          class="py-2 px-6 bg-pryColorDark text-white text-sm tracking-widest text-center rounded-md shadow-lg border-2 border-pryColorDark hover:bg-white hover:text-pryColorDark transition-all md:inline-block">
+          Read More
+        </button>
+      </div>
+
+      <div class="about-img">
+        <img src="./images/about.jpg" alt="about">
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section id="newsletter" class="mb-20">
+    <div class="container mx-auto px-3">
+      <div id="newsletter-text" class="py-10 max-w-sm mx-auto text-center md:max-w-lg lg:max-w-xl">
+        <h1 class="text-3xl font-bold mb-3">Newsletter</h1>
+        <p class="text-sm">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. A possimus inventore aliquam similique.
+          Consequuntur, accusantium? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+
+      <form class="max-w-sm mx-auto flex flex-col gap-5 items-center md:flex-row justify-between">
+        <input type="email" placeholder="Enter Your Email Address..."
+          class=" w-[80%] py-3 pl-5 rounded-lg bg-pryColorLight placeholder:text-pryColorDark text-md tracking-wider">
+        <button
+          class="py-2 px-6 bg-pryColorDark text-white text-sm tracking-widest text-center rounded-md shadow-lg border-2 border-pryColorDark hover:bg-white hover:text-pryColorDark transition-all md:inline-block">
+          Subscribe
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contact" class="bg-colorDark min-h-[20vh] p-6 text-colorWhite md:min-h-[10vh]">
+    <div class="footer-container flex flex-col items-center gap-6 md:max-w-3xl md:mx-auto">
+      <div class="logo">
+        <a href="#home">
+          <img src="./images/logo-footer.svg" alt="logo">
+        </a>
+      </div>
+
+      <ul class="flex flex-col gap-2 items-center md:flex-row md:space-x-7">
+        <li><a href="#home" class="hover:text-pryColorDark">Home</a></li>
+        <li><a href="#products" class="hover:text-pryColorDark">Products</a></li>
+        <li><a href="#about" class="hover:text-pryColorDark">About Us</a></li>
+        <li><a href="#contact" class="hover:text-pryColorDark">Contact Us</a></li>
+        <li><a href="#signUp" class="hover:text-pryColorDark">Sign Up</a></li>
+      </ul>
+
+      <div class="copyright font-semibold tracking-wider">
+        Coded with Tailwindcss BY AtomDev &#128521;
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS CODE FILE -->
+  <script src="app.js"></script>
+</body>
+
+</html>
