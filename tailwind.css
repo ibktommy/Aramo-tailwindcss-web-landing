@@ -6,19 +6,25 @@
 html {
 	scroll-behavior: smooth;
 }
+
+#mobile-menu {
+	position: fixed;
+	top: 10vh;
+	right: 0;
+	z-index: 30;
+}
+
 #main-nav {
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 30;
-	/* margin-bottom: 10rem; */
 }
 
 main {
 	background: ;
 	position: relative;
 	top: 5rem;
-	/* height: calc(100vh - 10vh); */
 }
 
 .showcase img {

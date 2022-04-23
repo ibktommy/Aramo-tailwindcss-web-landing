@@ -11,6 +11,15 @@
 
 <body>
 
+  <!-- Mobile View Menu -->
+  <ul id="mobile-menu" class="hidden flex-col items-center gap-3 bg-colorWhite shadow-lg w-2/3 p-4 text-xl">
+    <li><a href="#home" class="hover:text-pryColorDark">Home</a></li>
+    <li><a href="#products" class="hover:text-pryColorDark">Products</a></li>
+    <li><a href="#about" class="hover:text-pryColorDark">About Us</a></li>
+    <li><a href="#contact" class="hover:text-pryColorDark">Contact Us</a></li>
+    <li><a href="#signUp" class="hover:text-pryColorDark">Sign Up</a></li>
+  </ul>
+
   <!-- NAVIGATION -->
   <nav id="main-nav" class="w-full h-20 mx-auto flex p-4 shadow-lg bg-colorWhite">
     <div class="container mx-auto flex justify-between items-center px-3 bg-colorWhite">
@@ -35,8 +44,11 @@
       </button>
 
       <!-- Navbar Action Btn -->
-      <div class=" menu-icon md:hidden">
+      <div class=" menu-open cursor-pointer md:hidden">
         <img src="./images/toggle-open.svg" alt="toggle-open">
+      </div>
+      <div class="hidden menu-close cursor-pointer md:hidden">
+        <img src="./images/toggle-close.svg" alt="toggle-close">
       </div>
     </div>
   </nav>
